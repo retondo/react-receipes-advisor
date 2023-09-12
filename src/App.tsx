@@ -1,5 +1,12 @@
+import { Title } from "@components/Title"
+
 function App() {
-  return <p className="text-center">Hello World!</p>;
+  return (
+    <>
+      <Title />
+      <p className="text-center">Hello World!</p>
+    </>
+  )
 }
 
-export default App;
+export default App
