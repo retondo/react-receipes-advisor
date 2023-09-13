@@ -1,4 +1,4 @@
-import { useEffect, type PropsWithChildren } from "react"
+import { useEffect, type PropsWithChildren } from 'react'
 
 export function Title({
   children = import.meta.env.VITE_APP_TITLE,
